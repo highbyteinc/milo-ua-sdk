@@ -55,7 +55,7 @@ settings.xml:
         <server>
             <id>github</id>
             <username>${env.GITHUB_USER}</username>
-            <password>${env.GITHUB_TOKEN}}</password>
+            <password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>
 </settings>
