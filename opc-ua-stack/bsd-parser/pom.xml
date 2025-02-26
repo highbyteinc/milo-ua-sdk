@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.eclipse.milo</groupId>
         <artifactId>opc-ua-stack</artifactId>
-        <version>0.6.16-SNAPSHOT</version>
+        <version>0.6.15-highbyte</version>
     </parent>
 
     <artifactId>bsd-parser</artifactId>
@@ -18,19 +18,19 @@
         <dependency>
             <groupId>org.eclipse.milo</groupId>
             <artifactId>bsd-core</artifactId>
-            <version>0.6.16-SNAPSHOT</version>
+            <version>0.6.15-highbyte</version>
         </dependency>
 
         <dependency>
-            <groupId>com.sun.activation</groupId>
-            <artifactId>jakarta.activation</artifactId>
-            <version>1.2.2</version>
+            <groupId>jakarta.activation</groupId>
+            <artifactId>jakarta.activation-api</artifactId>
+            <version>2.1.2</version>
         </dependency>
 
         <dependency>
             <groupId>org.glassfish.jaxb</groupId>
             <artifactId>jaxb-runtime</artifactId>
-            <version>2.3.6</version>
+            <version>4.0.4</version>
         </dependency>
 
         <dependency>

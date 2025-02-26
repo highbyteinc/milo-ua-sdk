@@ -14,7 +14,7 @@
 
     <groupId>org.eclipse.milo</groupId>
     <artifactId>milo</artifactId>
-    <version>0.6.16-SNAPSHOT</version>
+    <version>0.6.15-highbyte</version>
     <packaging>pom</packaging>
 
     <name>Eclipse Milo - OPC UA (IEC 62541)</name>
@@ -431,13 +431,11 @@
     </reporting>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>github</id>
+            <name>Github Packages</name>
+            <url>https://maven.pkg.github.com/highbyteinc/intelligencehub</url>
+
         </repository>
     </distributionManagement>
 
